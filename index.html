@@ -7,48 +7,62 @@
 
 </head>
 <body>
-	<button class="btn btn-success">Ура, я подключил Bootstrap!</button>
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6">
-				<p>bike-meister.com</p>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<p id="p_first"><a href="mailto:bike-meister.com">bike-meister.com</a></p>
 			</div>
-			<div class="col-lg-6">
-				<p>Only available in BERLIN</p>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+				<p id="p_second">Only available in BERLIN</p>
 			</div>
 		</div>
 		<div class="row">
-			<p>I come to you and fix your bike.</p>
-			<p>Whatever you need, I fix it for you.</p>
+			<div class="col-lg-12">
+				<p id="p_third">I come to you and fix your bike.</p>
+				<p id="p_fourth">Whatever you need, I fix it for you.</p>
+			</div>
 		</div>
-		<div class="row">
+		<div class="row" id="icons">
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<img src="assets/icon-step-1.png" alt="icon-step-1.png">
+				<p><img src="assets/icon-step-1@3x.png" alt="icon-step-1.png" id="photo"></p>
 				<h2>Step 1</h2>
-				<p>Make a short video of what’s broken with your bike</p>
+				<p>Make a short video of<br> 
+				   what’s broken with<br>
+				   your bike</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<img src="assets/icon-step-2.png" alt="icon-step-2.png">
+				<p><img src="assets/icon-step-2@3x.png" alt="icon-step-2.png" id="phone"></p>
 				<h2>Step 2</h2>
-				<p>Send your video via Whatsapp to +49 151 4187 2006</p>
+				<p>Send your video<br> 
+				   via Whatsapp to<br>
+				   +49 151 4187 2006</p>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4">
-				<img src="assets/icon-step-3.png" alt="icon-step-3.png">
+				<p><img src="assets/icon-step-3@3x.png" alt="icon-step-3.png" id="bike"></p>
 				<h2>Step 3</h2>
-				<p>We come and fix your bike within the next 24 hours</p>
+				<p>We come and fix your<br>
+				   bike within the next<br>
+				   24 hours</p>
 			</div>
 		</div>
 	</div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12">
-				<p>“Jo arrived 2 hours after I sent him the video. He was very friendly and fixed my bike within 20 minutes.”</p>
+				<p class="text-center">“Jo arrived 2 hours after I sent him the video. He was very<br class="hidden-xs"> friendly and fixed my bike within 20 minutes.”</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row hidden-xs" id="name">
 			<div class="col-lg-12">
-				<img src="assets/image.png" alt="image.png">
-				<span>Daniel Lohse, Berlin</span>
+				<p><img src="assets/image@3x.png" alt="image.png">Daniel Lohse, Berlin</p>
+			</div>
+		</div>
+		<div class="row visible-xs" id="name">
+			<div class="col-xs-12">
+				<p><img src="assets/image@3x.png" alt="image.png"></p>
+			</div>
+			<div class="col-xs-12">
+				<p>Daniel Lohse, Berlin</p>
 			</div>
 		</div>
 	</div>

@@ -1,2 +1,87 @@
 body {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
 }
+div.container-fluid {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+div.container-fluid:nth-child(1) {
+    background-color: #04C477;
+    padding-top: 30px;
+}
+div.container-fluid:nth-child(2) {
+    background-color: #F9F9F9;
+}
+p#p_first {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+}
+a {
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    opacity: 0.7;
+}
+p#p_second {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 0.1px;
+    text-align: right;
+}
+p#p_third, p#p_fourth {
+    font-family: ".SFNSDisplay";
+    font-size: 40px;
+    letter-spacing: 0.1px;
+    font-weight: 100;
+}
+p#p_fourth {
+    margin-bottom: 50px;
+}
+div#icons p, div#icons h2 {
+    text-align: center;
+}
+div#icons h2 {
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 0.1px;
+}
+div#icons p {
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+}
+img#photo {
+    margin-top: 50px;
+}
+img#bike {
+    margin-top: 62px;
+}
+div.container-fluid:nth-child(2) p, div.container-fluid:nth-child(2) span {
+    color: #454545;
+}
+div.container-fluid:nth-child(2) div.col-lg-12 p {
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0.1px;
+    margin-top: 30px;
+}
+div#name p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+}
+div#name img {
+    margin-right: 10px;
+}
+@media screen and (max-width: 767px) {
+    p#p_first, p#p_second, p#p_third, p#p_fourth, div#name p  {
+        text-align: center;
+}
+    img#phone, div#name p img, p#p_third {
+        margin-top: 50px;
+}}
