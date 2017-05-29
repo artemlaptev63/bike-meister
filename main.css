@@ -13,33 +13,29 @@ div.container-fluid:nth-child(1) {
 div.container-fluid:nth-child(2) {
     background-color: #F9F9F9;
 }
-p#p_first {
+a {
+    color: #ffffff;
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 0.1px;
-}
-a {
-    color: #ffffff;
 }
 a:hover {
     text-decoration: none;
     color: #ffffff;
     opacity: 0.7;
 }
-p#p_second {
+p#supporting-text {
     font-size: 15px;
     font-weight: 100;
     letter-spacing: 0.1px;
     text-align: right;
 }
-p#p_third, p#p_fourth {
+h1 {
     
     font-size: 38px;
     letter-spacing: 0.1px;
     font-weight: 100;
-}
-p#p_fourth {
-    margin-bottom: 50px;
+    line-height: 50px;
 }
 div#icons p, div#icons h2 {
     text-align: center;
@@ -56,10 +52,13 @@ div#icons p {
     letter-spacing: 0.1px;
 }
 img#photo {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 img#bike {
-    margin-top: 62px;
+    margin-top: 80px;
+}
+img#phone {
+    margin-top: 38px;
 }
 div.container-fluid:nth-child(2) p {
     color: #454545;
@@ -78,18 +77,11 @@ div#name p {
 div#name img {
     margin-right: 10px;
 }
-@media screen and (max-width: 991px) {
-    img#photo {
-        margin-top: 35px;
-    }
-    img#bike {
-        margin-top: 42px;
-    }
-}
 @media screen and (max-width: 767px) {
-    p#p_first, p#p_second, p#p_third, p#p_fourth, div#name p  {
+    a, p#supporting-text, h1, div#name p  {
+        display: block;
         text-align: center;
 }
-    img#phone, div#name p img, p#p_third {
+    img#phone, div#name p img, h1 {
         margin-top: 50px;
 }}
